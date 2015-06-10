@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>FDBC4A62-9DDD-4B6F-87D3-35B523FEA29F</string>
 	<key>IDESourceControlProjectName</key>
-	<string>SIAlertViewExample</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>E2E339EC05FF99AF5ECAE62EDBC78398DA1111C6</key>
 		<string>https://github.com/vburojevic/SIAlertView.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>SIAlertViewExample/SIAlertViewExample.xcodeproj</string>
+	<string>SIAlertViewExample/SIAlertViewExample.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>E2E339EC05FF99AF5ECAE62EDBC78398DA1111C6</key>
