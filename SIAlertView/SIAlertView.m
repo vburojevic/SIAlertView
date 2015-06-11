@@ -959,13 +959,14 @@ static SIAlertView *__si_alert_current_view;
         case SIAlertViewButtonTypeCancel:
             //            normalImage = [UIImage imageNamed:@"SIAlertView.bundle/button-cancel"];
             //            highlightedImage = [UIImage imageNamed:@"SIAlertView.bundle/button-cancel-d"];
-            button.font = [UIFont boldSystemFontOfSize:16.0f];
+            button.titleLabel.font = [UIFont boldSystemFontOfSize:16.0f];
             [button setTitleColor:self.cancelButtonColor forState:UIControlStateNormal];
             [button setTitleColor:[self.cancelButtonColor colorWithAlphaComponent:0.8] forState:UIControlStateHighlighted];
             break;
         case SIAlertViewButtonTypeDestructive:
             //            normalImage = [UIImage imageNamed:@"SIAlertView.bundle/button-destructive"];
             //            highlightedImage = [UIImage imageNamed:@"SIAlertView.bundle/button-destructive-d"];
+            button.titleLabel.font = [UIFont boldSystemFontOfSize:16.0f];
             [button setTitleColor:self.destructiveButtonColor forState:UIControlStateNormal];
             [button setTitleColor:[self.destructiveButtonColor colorWithAlphaComponent:0.8] forState:UIControlStateHighlighted];
             break;
